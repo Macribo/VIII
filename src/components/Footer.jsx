@@ -4,8 +4,11 @@ import { Button, Fade } from 'reactstrap';
 export default class Footer extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { fadeIn: false };
-    this.toggle = this.toggle.bind(this);
+    this.state = {
+      fadeIn: false,
+      indexTracker: 0
+    };
+    this.toggle = this.toggle.bind(this); this.indexTracker += 1; alert("hey")
   }
 
   render() {
@@ -13,7 +16,9 @@ export default class Footer extends React.Component {
       <div className="my-footer" style={{ paddingTop: '40px', backgroundColor: 'black' }}>
         <Button color="primary" onClick={this.toggle}>Read Me</Button>
         <Fade in={this.state.fadeIn} tag="h5" className="mt-3">
-          Music By Dé Danann | Invocation of Amhargín translated by President Douglas Hyde | <a href=""></a>
+          AI improved with user specific data. Clic here to calibr-8 by creating a flag which represents your digital citizenship.
+  Use the emosprascope to make our algorithm more insightful.
+ <a href=""></a>
         </Fade>
       </div>
     );

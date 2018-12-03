@@ -27,21 +27,21 @@ const items = [
   },
   {
     src: 'images/1.png',
-    altText: 'play("pool-cue-break.wav")',
-    caption: '3D_animation_of_logo_rolling_away'
+    altText: '',
+    caption: ''
   },
   {
     src: 'images/2.png',
     altText: '100,000 Fáilte',
-    caption: 'Muintir an t-Sír'
+    caption: 'Muintir an tSiria'
   },
   {
     src: 'images/3.png',
-    altText: 'go',
-    caption: 'Éir3 2'
+    altText: '',
+    caption: 'Éir3 2 || An t2ír'
   }, {
     src: 'images/3b.png',
-    altText: 'A Big Place',
+    altText: 'Big Places',
     caption: 'for small ideas'
   }, {
     src: 'images/3c.png',
@@ -53,9 +53,10 @@ const items = [
     caption: ''
   }, {
     src: 'images/5.png',
-    altText: `    createCanvas(400,400);
+    altText: `createCanvas(400,400);
     engine = Engine.create();
     world = engine.world;
+    
 
     Engine.run(engine);
 //box1 = new Box(200,100,50,50);
@@ -117,21 +118,41 @@ World.add(world, ground);
     altText: 'Part III',
     caption: 'Entscheidungshilfetool'
   },
-  ,
+
 
 
 
   {
     src: 'images/9j1.png',
-    altText: 'or be asked a question',
-    caption: 'or ask a question'
+    altText: 'talk() || trade() || fight() || leave()',
+    caption: ''
   }
   ,
 
   {
-    src: 'images/j2.png',
-    altText: 'Cheating the Turing Test',
-    caption: 'Is a way to pass.'
+    src: 'images/9j4.png',
+    altText: '',
+    caption: ''
+  },
+  {
+    src: 'images/9j5.png',
+    altText: 'Explore Code',
+    caption: 'From a bug\s point of view'
+  },
+  {
+    src: 'images/9j6.png',
+    altText: 'sample code works fine',
+    caption: 'until the bug lands somewhere'
+  }, {
+    src: 'images/9j7.png',
+    altText: 'sample code works fine',
+    caption: 'until the bug lands somewhere'
+  }
+  ,
+  {
+    src: 'images/9j2.png',
+    altText: '',
+    caption: ''
   }
 
 ];
@@ -190,8 +211,16 @@ class VIII extends Component {
         </CarouselItem>
       );
     });
+    {
+      var x = document.getElementById("./audio/8break.mp3");
 
+      function playAudio() {
+        x.play();
+      }
+    }
     return (<div>
+
+
       <Jumbo />
       <Carousel style={{ backgroundColor: 'black' }}
         activeIndex={activeIndex}
@@ -200,12 +229,16 @@ class VIII extends Component {
       >
         <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.playAudio} />
+        <CarouselControl direction="next" directionText="Next" onClickHandler={this.playAudio} />
       </Carousel>
+
     </div>);
   }
+
+
 }
+
 
 
 
