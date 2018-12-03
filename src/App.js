@@ -5,6 +5,17 @@ import Thumbnails from './components/Thumbnails';
 import MyNavbar from './components/MyNavbar';
 import NotFound from './components/NotFound';
 
+import Splash from './components/VIII/Splash'
+import Plan from './components/VIII/Plan'
+import StartGame from './components/VIII/StartGame'
+import UnderGround1 from './components/VIII/UnderGround1'
+import EventBackground1 from './components/VIII/EventBackground1'
+import Jantorial from './components/VIII/Jantorial'
+import MultiPlayer from './components/VIII/MultiPlayer'
+import CalibrateFlag from './components/VIII/CalibrateFlag'
+import Moth from './components/VIII/Moth'
+
+
 
 
 
@@ -40,8 +51,16 @@ class App extends Component {
           <Switch>
 
 
-
             <Route exact path="/VIII" component={VIII} />
+            <Route exact path="/1/" component={Splash} />
+            <Route exact path="/2/" component={Plan} />
+            <Route exact path="/3/" component={StartGame} />
+            <Route exact path="/4/" component={UnderGround1} />
+            <Route exact path="/5/" component={EventBackground1} />
+            <Route exact path="/6/" component={Jantorial} />
+            <Route exact path="/7/" component={MultiPlayer} />
+            <Route exact path="/8/" component={CalibrateFlag} />
+            <Route exact path="/9/" component={Moth} />
 
 
             {/* <Route exact path="/gallery/:id" component={GalleryContainer} /> */}

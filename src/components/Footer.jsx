@@ -8,7 +8,8 @@ export default class Footer extends React.Component {
       fadeIn: false,
       indexTracker: 0
     };
-    this.toggle = this.toggle.bind(this); this.indexTracker += 1; alert("hey")
+    this.toggle = this.toggle.bind(this);
+    // this.indexTracker += 1; alert("hey")
   }
 
   render() {
