@@ -1,3 +1,65 @@
+
+
+Cody Karoke
+
+...ready?
+
+
+drums1.play()  
+
+//keyword list animated to drum-beat: sing along with the bouncing ball
+
+<h1>H</h1>
+<h2>T</h>
+<h3>M</3h>
+<h4>L</4h>
+<h5>Hyper Text Markup Language</5h>
+<h6>J</6h>
+<h5>is</5h>
+<h4>for</4h>
+<h3>Java</3h>
+<h2>JavaScript</2h>
+<h1>is JS</1h>
+<h3>CSS</3h>
+<h1>cSS</1h>
+<h4>CsS</4h>
+<h1>CSs</1h>
+<h3>Cascading</3h>
+<h1>Style</1h>
+<h2>Sheets</2h>
+<h1>HTML CSS JS</1h>
+<h3>Forms the basis of web-design</3h>
+<h3>We also need</3h>
+<h2>Code Editors</2h>
+<h1>Browsers</1h>
+<h1>An operating system</1h>
+<h1>Ubuntu</1h>
+<h1>Linux</1h>
+<h1>Mac or Windows</1h>
+<h1>Remember</1h>
+<h>Javascript</1h>
+<h1>HTML</1h>
+<h5>CSS</5h>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
