@@ -30,9 +30,33 @@
 
   <!-- <script src="./js/jQuery-Plugin-To-Simulate-Terminal-Text-Effects-t-js/t.min.js"></script> -->
   <title>VIII</title>
+
+  <script>function loadIt() {
+      setTimeout(function () {
+        var body = document.getElementById('toLoad');
+        body.className += 'loaded';
+
+      }, 3000);
+    }</script>
+
 </head>
 
-<body>
+<body onload="loadIt()" id="toLoad">
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left">
+      <table class="stripes">
+        <tr>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+  >
+
+
   <noscript>
     You need to enable JavaScript to run this app.
   </noscript>

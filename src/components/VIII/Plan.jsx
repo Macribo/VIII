@@ -18,7 +18,6 @@ class Plan extends React.Component {
         <div class="lg-12" style={{}}>
           <img src="images/5.png" alt="placeholder 960" class="img-responsive" />
 
-          <Button id="btn-plan"><i class="fas fa-arrow-right "></i></Button>
         </div>
       </div>
 

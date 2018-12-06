@@ -15,6 +15,7 @@ import MultiPlayer from './components/VIII/MultiPlayer'
 import CalibrateFlag from './components/VIII/CalibrateFlag'
 import Moth from './components/VIII/Moth'
 
+import preabTeacs from './components/preabTeacs'
 
 /*TODO 
   rename components to something intuitive and descriptive.
