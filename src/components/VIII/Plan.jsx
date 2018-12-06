@@ -6,50 +6,22 @@ import {
   CardTitle, CardSubtitle
 } from 'reactstrap';
 class Plan extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      modal: false
-    };
-
-    this.toggle = this.toggle.bind(this);
-  }
-
-  toggle() {
-    this.setState({
-      modal: !this.state.modal
-    });
-  }
 
   render() {
+
+
+
+
     return (
-      <div>
 
-        <Modal id="loadingData" isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+      <div class="row">
+        <div class="lg-12" style={{}}>
+          <img src="images/5.png" alt="placeholder 960" class="img-responsive" />
 
-          <div id="loadingData">
-
-
-          </div>
-
-          <ModalFooter>
-            <Button color="primary" onClick={this.toggle}>océ</Button>{' '}
-            <Button color="secondary" onClick={this.toggle}>skip</Button>
-          </ModalFooter>
-        </Modal>
-
-        <div>
-          <Card className="row align-items-center justify-content-center">
-            <CardImg top width="100%" className="" src="images/other/antrim1.png" alt="Card image cap" style={{ paddingTop: '0px', width: '100%', }} />
-            <CardBody>
-              <CardTitle></CardTitle>
-              <CardSubtitle></CardSubtitle>
-              <CardText></CardText>
-              <Button id="btnTutorial" color="warning" onClick={this.toggle}>Tutorial{this.props.buttonLabel}</Button>
-            </CardBody>
-          </Card>
+          <Button id="btn-plan"><i class="fas fa-arrow-right "></i></Button>
         </div>
       </div>
+
     );
   }
 }

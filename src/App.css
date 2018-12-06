@@ -89,7 +89,30 @@ margin:0;
 }
 
 #loadingData{
-  background-image:src('../public/images/other/loadingData.png');
-  width:100%;
-  border:5px solid red;
+  width:200%;
+  height:100%;
+  padding:0;
+  margin:0;
+  /* border:5px solid red; */
 }
+
+.modal-content{
+  background-color:rgba(0,0,0,0.7);
+}
+ .modal{
+   background-color:rgba(0,0,0,0.7);
+ }
+
+ #planCard{
+   height:100%;
+   /* border:solid 2px red; */
+ }
+
+ #btn-plan{
+   border:2px solid green;
+   position:fixed;
+   transform:translate(-50%,-50%);
+   top:75%;
+   left:50%;
+   padding: 20px 50px ;
+ }
