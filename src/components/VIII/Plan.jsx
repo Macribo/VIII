@@ -24,51 +24,28 @@ class Plan extends React.Component {
   render() {
     return (
       <div>
-        <Button color="danger" onClick={this.toggle}>View Plan{this.props.buttonLabel}</Button>
-        <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>Phase 0</ModalHeader>
-          <ModalBody>
-            On the surface, this app is a 'Magic 8 Ball' question answerer.
 
-            Like the classic toy, the app is asked a question, given a shake, and returns a random (sometimes humorous) answer.
+        <Modal id="loadingData" isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
 
-            Unlike the classic toy: the app actually 'listens' to the question. The player presses the record button while asking a question.
-            The question is recorded, and converted to an array of 'words' with the (EG) IBM Watson Accurate Speech to Text API.
-
-           Question[] is parsed for question words (Who What When, Where, Why, How, Should etc ).
-
-           Question is added to questionsDB.
-
-           The app offers a 'Details' Button.
-           The player can ask another question, or explore the previous answer in more detail, with the 'Details' button.
-
-           If the player presses Details,
-           The app tries to generate a meaningful template based on what it knows, so far.
-           Yes or no questions based on the questionModel are selected, in an effort to ensure that the question is being parsed in an acceptable way.
-
-           Once this is established,
-           The user's decision is challenged with counter questions, and checked against common logical fallacies with keywords from the original question / related questions in the database.
-
-Finally, if the user is still undecided, a pro/con table is generated, where the user can add tokens representing points for or against the decision. According to how important the concerns they represent are. (also 'render point' for pro/con)
+          <div id="loadingData">
 
 
+          </div>
 
-
-          </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
-            <Button color="secondary" onClick={this.toggle}>Cancel</Button>
+            <Button color="primary" onClick={this.toggle}>océ</Button>{' '}
+            <Button color="secondary" onClick={this.toggle}>skip</Button>
           </ModalFooter>
         </Modal>
 
         <div>
           <Card className="row align-items-center justify-content-center">
-            <CardImg top width="100%" className="" src="https://i.imgur.com/Tqm8f21.png" alt="Card image cap" style={{ paddingTop: '50px', width: '50%', }} />
+            <CardImg top width="100%" className="" src="images/other/antrim1.png" alt="Card image cap" style={{ paddingTop: '0px', width: '100%', }} />
             <CardBody>
-              <CardTitle>Card title</CardTitle>
-              <CardSubtitle>Thamania</CardSubtitle>
-              <CardText>DCI Group-8 Project</CardText>
-              <Button >Start</Button>
+              <CardTitle></CardTitle>
+              <CardSubtitle></CardSubtitle>
+              <CardText></CardText>
+              <Button id="btnTutorial" color="warning" onClick={this.toggle}>Tutorial{this.props.buttonLabel}</Button>
             </CardBody>
           </Card>
         </div>

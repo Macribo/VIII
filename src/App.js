@@ -16,6 +16,11 @@ import CalibrateFlag from './components/VIII/CalibrateFlag'
 import Moth from './components/VIII/Moth'
 
 
+/*TODO 
+  rename components to something intuitive and descriptive.
+  //Tricky at this po,
+*/
+
 
 
 
@@ -40,20 +45,14 @@ class App extends Component {
 
   render() {
     return (
-
-
-
-
       <Router>
         <div className="App">
-
           {/* <MyNavbar /> */}
           <Switch>
-
+            <Route exact path="/" component={Plan} />
 
             <Route exact path="/VIII" component={VIII} />
             <Route exact path="/1/" component={Splash} />
-            <Route exact path="/2/" component={Plan} />
             <Route exact path="/3/" component={StartGame} />
             <Route exact path="/4/" component={UnderGround1} />
             <Route exact path="/5/" component={EventBackground1} />
@@ -66,7 +65,7 @@ class App extends Component {
             {/* <Route exact path="/gallery/:id" component={GalleryContainer} /> */}
             <Route component={NotFound} />
           </Switch>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </Router>
     );

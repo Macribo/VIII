@@ -77,3 +77,19 @@ margin:0;
     transform: rotate(360deg);
   }
 }
+
+
+#btnTutorial{position:absolute;
+  transform:translate(-50%,-50%);
+  top:75%;
+  left:50%;
+  opacity:.8;
+  padding: 30px 150px;
+  border:2px solid black;
+}
+
+#loadingData{
+  background-image:src('../public/images/other/loadingData.png');
+  width:100%;
+  border:5px solid red;
+}

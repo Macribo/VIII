@@ -11,9 +11,14 @@ const Example = (props) => {
         <CardImg top width="100%" className="" src="https://i.imgur.com/f2xQ36f.png" alt="Card image cap" style={{ paddingTop: '50px', width: '50%', }} />
         <CardBody>
           <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Thamania</CardSubtitle>
-          <CardText>DCI Group-8 Project</CardText>
-          <Button >Start</Button>
+          <CardSubtitle>Not Men, But Giants.</CardSubtitle>
+          <CardText>Laochra Spóirt na h-Éireann</CardText>
+          <Button >Rith</Button>
+
+          <Button >Snámh</Button>
+          <Button >Dornálíocht</Button>
+          <Button >Judo</Button>
+          <Button >MMA</Button>
         </CardBody>
       </Card>
     </div>
