@@ -14,10 +14,10 @@ class Plan extends React.Component {
 
     return (
 
-      <div class="row">
+      <div className="container-fluid">
         <div class="lg-12" style={{}}>
           <img src="images/5.png" alt="placeholder 960" class="img-responsive" />
-
+          <Button>Start</Button>
         </div>
       </div>
 
