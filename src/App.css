@@ -2,8 +2,37 @@
   text-align: center;
 }
 
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App {
+  text-align: center;
+}
+
 html{height:100%;
   background-color:black;
+  font-family: 'Muli', sans-serif;
 
 }
 .carousel-inner{
@@ -141,7 +170,7 @@ margin:0;
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #08b308;
+  border-top-color: #383838;
   -webkit-animation: spin 2s linear infinite;
   /*Chrome, opera 15+, safari 5+*/
   animation: spin 2s linear infinite;
@@ -158,7 +187,7 @@ margin:0;
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #002700;
+  border-top-color: #353535;
   -webkit-animation: spin 3s linear infinite;
   /*Chrome, opera 15+, safari 5+*/
   animation: spin 3s linear infinite;
@@ -174,7 +203,7 @@ margin:0;
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #024b00;
+  border-top-color: #535353;
   -webkit-animation: spin 1.5s linear infinite;
   /*Chrome, opera 15+, safari 5+*/
   animation: spin 1.5s linear infinite;
@@ -225,24 +254,44 @@ margin:0;
   top:0;
   width: 51%;
   height:100%;
-  background: #222;
+  
   z-index:1000;
   }
 
   #loader-wrapper .loader-section.section-left{
       left:0;
-      background-color:rgb(88, 1, 1);
+      background-color:rgb(0, 0, 0);
   }
 
   #loader-wrapper .loader-section.section-right{
       right:0;
-      background-color:rgb(88, 1, 1);
-  }
-  .stripes{
-      height:100%;
-      width:100%
+      background-color:rgb(0, 0, 0);
   }
 
+
+.suile{
+  position:absolute;
+  height:27px;
+  max-width:93px;  
+   top:39%;
+  left:44%;
+  opacity:0.2;
+  z-index:100;
+
+}
+.glitch1{
+  display:flex;
+  position:absolute;
+  width:50%;
+   top:45%;
+  left:46%;
+  opacity:0.6;
+  transform:translate(-50%,-50%);
+  align-items: center;
+  justify-content: center;
+  z-index:99  ;
+
+}
 /*Loaded styles*/
 .loaded #loader-wrapper .loader-section.section-left{
 -webkit-transform: translateX(-100%);
@@ -275,3 +324,33 @@ transition: all 0.3s 0.7s cubic-bezier(0.645, 0.045, 0.355, 1.000);
       transition: all 0.3s 1s ease-out;
   }
 
+.greeter{
+  color:cornsilk;
+  position:relative;
+  z-index:100;
+  margin-top:10%;
+  text-shadow: 2px 2px #000000;
+}
+
+.bob{
+  /* display:span; */
+  color:greenyellow;
+  width:90%;
+  margin-top:10%;
+  position:fixed;
+  z-index:1500;
+  
+}
+.bob2{
+  /* display:none; */
+  position:fixed;
+  z-index:500;
+}
+
+#codeland{top:10%;
+left:10%;
+position:fixed;}
+
+h1{
+  font-size: 40px;
+}

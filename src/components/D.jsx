@@ -7,7 +7,7 @@ import {
   CarouselCaption,
 
 } from 'reactstrap';
-import Jumbo from './Jumbo';
+// import Jumbo from './Jumbo';
 
 
 const VIIItexts = {
@@ -17,148 +17,54 @@ const VIIItexts = {
 }
 const items = [
   {
-    src: 'images/0.png',
-    altText: function textDelivery(text) {
-
-      alert('textDelivery');
-    },
-    caption: 'Project Proposal'
-
-  },
-  {
     src: 'images/1.png',
     altText: '',
     caption: ''
-  },
-  {
-    src: 'images/2.png',
-    altText: '100,000 Fáilte',
-    caption: 'Muintir an tSiria'
-  },
-  {
-    src: 'images/3.png',
-    altText: '',
-    caption: 'Éir3 2 || An t2ír'
-  }, {
-    src: 'images/3b.png',
-    altText: 'Big Places',
-    caption: 'for small ideas'
-  }, {
-    src: 'images/3c.png',
-    altText: '',
-    caption: ''
-  }, {
-    src: 'images/4.png',
-    altText: 'Let\'s get on with putting errors on the moon',
-    caption: ''
-  }, {
-    src: 'images/5.png',
-    altText: `createCanvas(400,400);
-    engine = Engine.create();
-    world = engine.world;
-    
-
-    Engine.run(engine);
-//box1 = new Box(200,100,50,50);
-var options = {isStatic:true};
-ground = Bodies.rectangle(200, height,width, 10,options);
-World.add(world, ground);
-}
-
-
-`,
-    caption: ''
-  }, {
-    src: 'images/6.png',
-    altText: '',
-    caption: ' createCanvas(400,400);'
-  }, {
-    src: 'images/7.png',
-    altText: 'loadUserProfiles();',
-    caption: ''
-  }, {
-    src: 'images/8.png',
-    altText: 'createFlag(); ',
-    caption: `alert("Choose colors for your flag");`
-
 
   },
   {
-    src: 'images/9.png',
-    altText: 'Color 1',
-    caption: ''
-  }, {
-    src: 'images/9b.png',
-    altText: 'Color 2',
-    caption: ''
-  }, {
-    src: 'images/9d.png',
-    altText: 'Color 3',
-    caption: ''
-  }, {
-    src: 'images/9f.png',
-    altText: 'Add Emblem?',
-    caption: ''
-  }, {
-    src: 'images/9g.png',
-    altText: 'Add Motto',
-    caption: 'Add Country of Origin Name'
-  }, {
-    src: 'images/9h.png',
-    altText: 'Welcome, citizen of',
-    caption: 'ContryOfOrigin.name'
-  }, {
-    src: 'images/9i.png',
-    altText: 'But what does it do?',
-    caption: ''
-  },
-
-  {
-    src: 'images/9j.png',
-    altText: 'Part III',
-    caption: 'Entscheidungshilfetool'
-  },
-
-
-
-
-  {
-    src: 'images/9j1.png',
-    altText: 'talk() || trade() || fight() || leave()',
-    caption: ''
-  }
-  ,
-
-  {
-    src: 'images/9j4.png',
+    src: 'images/j1.png',
     altText: '',
     caption: ''
   },
   {
-    src: 'images/9j5.png',
-    altText: 'Explore Code',
-    caption: 'From a bug\s point of view'
+    src: 'images/j3.png',
+    altText: '',
+    caption: ''
   },
   {
-    src: 'images/9j6.png',
-    altText: 'sample code works fine',
-    caption: 'until the bug lands somewhere'
+    src: 'images/j2.png',
+    altText: '',
+    caption: ''
   }, {
-    src: 'images/9j7.png',
-    altText: 'sample code works fine',
-    caption: 'until the bug lands somewhere'
-  }
-  ,
+    src: 'images/j4.png',
+    altText: '',
+    caption: ''
+  },
   {
-    src: 'images/9j2.png',
+    src: 'images/j5.png',
+    altText: '',
+    caption: ''
+  },
+  {
+    src: 'images/j1.png',
+    altText: '',
+    caption: ''
+  },
+  {
+    src: 'images/j6.png',
     altText: '',
     caption: ''
   }
+
+
+
+
 
 ];
 
 
-class VIII extends Component {
+class D extends Component {
 
 
   constructor(props) {
@@ -221,7 +127,7 @@ class VIII extends Component {
     return (<div>
 
 
-      <Jumbo />
+      {/* <Jumbo /> */}
       <Carousel style={{ backgroundColor: 'black' }}
         activeIndex={activeIndex}
         next={this.next}
@@ -242,4 +148,4 @@ class VIII extends Component {
 
 
 
-export default VIII;
+export default D;
