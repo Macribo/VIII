@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button } from 'reactstrap';
 import { connect } from 'react-redux';
-import B from './B'
+import AboutModal from './AboutModal'
 import { Link } from 'react-router-dom';
 var classNames = require('classnames');
 
@@ -55,13 +55,12 @@ class A extends Component {
       <div className="container-fluid">
         <div className="" style={{ position: "absolute", top: "0", right: "0", bottom: "0", left: "0", backgroundColor: "black" }}>
           <img src={this.state.bgImg} alt="placeholder 960" className="img-responsive" style={{ width: "100%" }} />
-          <B />
 
           {/* <img src="images/other/suile.gif" className="suile" alt="placeholder 960" style={{ width: "100%" }} /> */}
-          <Link to="/b">
+          {/* <Link to="/b">
             <Button style={this.state.style} onClick={(this.letsStart)
             }>Start</Button>
-          </Link>
+          </Link> */}
         </div>
       </div>
 

@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-}
+  background-color:black;}
 
+html{}
 
 .App-header {
   background-color: #282c34;
@@ -362,4 +363,13 @@ h1{
   left:0;
   color:blueviolet;
   z-index:500;
+}
+
+#aboutButton{
+  position: relative;
+  z-index:501;
+  top:0;
+  left:0;
+/* border: 2px solid green; */
+  font-size: 2em;
 }
