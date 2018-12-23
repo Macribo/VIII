@@ -354,3 +354,12 @@ position:fixed;}
 h1{
   font-size: 40px;
 }
+
+#bText{
+
+  position: relative;
+  top:-450px;
+  left:0;
+  color:blueviolet;
+  z-index:500;
+}

@@ -8,6 +8,8 @@ import B from './components/B'
 import C from './components/C'
 import D from './components/D'
 class App extends Component {
+
+
   render() {
     return (
       <Router>
@@ -15,9 +17,9 @@ class App extends Component {
         <div className="App">
 
           <Switch>
-            <Route exact path="/a" component={C} />
-            <Route exact path="/b" component={A} />
-            <Route exact path="/c" component={D} />
+            <Route exact path="/a" component={A} />
+            <Route exact path="/b" component={B} />
+            <Route exact path="/c" component={C} />
           </Switch>
         </div>
       </Router>
