@@ -366,10 +366,45 @@ h1{
 }
 
 #aboutButton{
-  position: relative;
+  position: absolute;
   z-index:501;
-  top:0;
-  left:0;
+  top:50%;
+  left:45%;
+  color:black;
+  padding:30px 50px;;
 /* border: 2px solid green; */
   font-size: 2em;
+  background-color:blue;
 }
+
+/*MODAL STYLES*/
+
+#modalBody{
+  position:relative;
+  z-index:400;
+width:100%;
+padding:0;
+/* margin:0;  border:2px solid green; */
+}
+
+#t{
+  color:greenyellow;
+}
+
+/*What a mess!*/
+
+.about{
+
+  display:grid;
+  align-content: center;
+  text-align: center;
+  position:fixed;
+  top:-20%;
+height:100%;
+width:99%;
+  left:0;
+  z-index:700;
+  border:solid green 2px;
+  color:gold;
+}
+

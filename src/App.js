@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
@@ -7,31 +8,37 @@ import A from './components/A'
 import AboutModal from './components/AboutModal'
 import C from './components/C'
 import D from './components/D'
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 class App extends Component {
 
-
-
-
-
+  // constructor(props) {
+  //   super(props);
   state = {
-    buttonLabel: "About"
+    modal: false,
+    page: null
+    // };
+
+    // this.toggle = this.toggle.bind(this);
   }
+  toggle = () => {
+    this.setState({
+      modal: !this.state.modal
+    });
+
+
+  }
+
+  showAbout = (page) => {
+    this.setState({
+      page: page
+    })
+  }
+
   render() {
 
-    return (
-      <Router>
-
-        <div className="App">
-          <AboutModal buttonLabel={this.state.buttonLabel} />
-          <Switch>
-            {/* <Route exact path="/a" component={A} /> */}
-
-            <Route exact path="/c" component={C} />
-
-            <Route component={A} />
-          </Switch>
-        </div>
-      </Router>
+    return (<div>
+      <A />
+    </div>
 
     );
   }
