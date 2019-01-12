@@ -1,0 +1,125 @@
+/*Ribo suggestions 1.0 start*/
+.firstPage{ 
+  
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  display:flex;
+  position:absolute;
+  /* border: 2px solid blue; */
+  height:100%;
+  width:100%;
+  top:0%;
+  left:0%;
+  /* transform:translate(-50%,-50%); */
+}
+
+.firstPageLeft{
+  display:flex;
+  position:absolute;  height:100%;
+  width:100%;
+  background-color: #ADADAD;
+  top:0%;
+  left:0%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column ;
+
+
+}
+
+.firstPageRight{
+  
+  display:flex;
+  position:absolute;
+  background-color:  #999999;
+  height:100%;
+  width:100%;
+  top:0%;
+  left:0%;
+  align-items: center;
+  justify-content: center;
+text-align: center;
+flex-direction: column ;
+
+}
+
+
+.insertItem{
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  display:flex;
+  position:absolute;
+  /* border: 2px solid blue; */
+  height:100%;
+  width:100%;
+  top:0%;
+  left:0%;
+  background-color:#E9E9E9;
+  /* transform:translate(-50%,-50%); */
+
+}
+
+
+
+/*Ribo suggestions 1.0 end ------------- */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border: 1px solid rgb(182, 179, 179);
+}
+.item-details {
+  overflow: hidden;
+  height: 100%;
+}
+.item-details-map {
+  height: 500px;
+}
+.search {
+  margin-bottom: 10px;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.navbar {
+  position: absolute;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: black;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
