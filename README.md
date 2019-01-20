@@ -1,10 +1,9 @@
 
-
-Cody Karoke
-
+This project is about saving the whales; saving the insects, ensuring that humanity makes it to the stars. Why aim for anything less? We start with the brain and applying our imagination to how we think.  
 ...ready?
 
 
+delete_ego();
 drums1.play()  
 
 //keyword list animated to drum-beat: sing along with the bouncing ball
