@@ -3,91 +3,79 @@ import React from 'react';
 export default function Instrunctions() {
   return (
     <div>
-      <h1>Lost and found final year project</h1>
+      <h1>A</h1>
       <ol>
-        please follow these instructions:
+        b
         <li>
-          <p>clone this repository from master branch by:</p>
+          <p>c</p>
           <p>
-            git clone
-            https://github.com/lost-and-found-final-project/lost-and-found.git
           </p>
         </li>
         <li>
           <p>
-            creat your local branch, should be the same branch name on GitHub
-            like this:
-          </p>
-          <p>git checkout -b development-branch</p>
+            d</p>
+          <p>e</p>
+        </li>
+        <li>
+          <p>f          </p>
+          <p>g</p>
         </li>
         <li>
           <p>
-            after you create the branch local on your computer, you have to pull
-            like this:
+            h:
           </p>
-          <p>git pull origin development-branch</p>
+          <p>i</p>
         </li>
         <li>
           <p>
-            creat another local branch, should be the same branch name on GitHub
-            like this:
+            j:
           </p>
-          <p>git checkout -b version1.0</p>
+          <p>k</p>
         </li>
         <li>
-          <p>
-            after you create the branch local on your computer, you have to pull
-            like this:
-          </p>
-          <p>git pull origin version1.0</p>
-        </li>
-        <li>
-          <h3>Important</h3>
-          <p>after you create the branches development-branch and version1.0</p>
-          <p>create your own branch like the following names:</p>
+          <h3>l</h3>
+          <p>m</p>
+          <p>n</p>
           <ul>
-            <li>git checkout -b Nemer1.0</li>
-            <li>git checkout -b Damir1.0</li>
-            <li>git checkout -b Ribo1.0</li>
-            <li>git checkout -b Niko1.0</li>
+            <li>o</li>
+            <li>p</li>
+            <li>q</li>
+            <li>r</li>
           </ul>
-          <p>
-            after you create your own branch: please push always to your branch
-            like this:
+          <p>s:
           </p>
           <ul>
-            <li>git push origin Nemer1.0</li>
-            <li>git push origin Damir1.0</li>
-            <li>git push origin Ribo1.0</li>
-            <li>git push origin Niko1.0</li>
+            <li>t</li>
+            <li>u</li>
+            <li>v</li>
+            <li>w</li>
           </ul>
         </li>
       </ol>
-      <h1>More instrunctions</h1>
+      <h1>x</h1>
       <ol>
         <li>
-          <p>to know which branch you are :</p>
-          <p>git branch</p>
+          <p>y:</p>
+          <p>z</p>
         </li>
         <li>
-          <p>to know branches on gitHub:</p> <p>git branch -a</p>
+          <p>A:</p> <p>b</p>
         </li>
         <li>
-          <p>please always work on your branch and push to it like this: </p>
-          <p>for example: git push origin Niko1.0</p>
+          <p>c: </p>
+          <p>d</p>
         </li>
         <li>
           <p>
-            please don't change to the branches development-branch or version1.0
+            e
           </p>
         </li>
-        <li>don't hesitate to ask me for more info.</li>
+        <li>f</li>
         <h3>
-          Note when you follow these instructions we decrease the risks and
-          conflict while merging
+          g
         </h3>
-        <h1>Big Thanks</h1>
-        <h1>Good Luck</h1>
+        <h1>h</h1>
+        <h1>i</h1>
       </ol>
     </div>
   );
